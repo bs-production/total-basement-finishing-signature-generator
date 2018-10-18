@@ -5,15 +5,15 @@
         "background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
         <tr>
             <td valign="top" style=
-            "padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0; border-right: solid 2px #FF7F30">
-            <a href="https://www.cnlive18.com/"><img width="175"
-                    height="96" style="width: 175px; max-width: 175px !important; height: 96px; max-height: 96px !important;" id="preview-image-url" src=
-            "http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/1583/CNLive_Convention_logo_new4.jpg"
+            "padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0;">
+            <a href="https://www.contractornation.com/"><img width="184"
+                    height="117" style="width: 184px; max-width: 184px !important; height: 117px; max-height: 117px !important; margin-top: 5px;" id="preview-image-url" src=
+            "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png"
               name="preview-image-url" /></a>
             </td>
             
             <td style=
-            "padding-top: 0; padding-bottom: 0; padding-left: 12px; padding-right: 0;">
+            "padding-top: 0; padding-bottom: 0; padding-left: 5px; padding-right: 0;">
             <table cellpadding="0" cellspacing="0" border="0" style=
             "background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
               <tr>
@@ -51,24 +51,24 @@
                   </tr>
                 <tr>
                   <td colspan="2" style="padding-top: 5px;">
-                    <a href="https://www.facebook.com/basementsystemsinc" target="_blank" style=
+                    <a href="https://www.facebook.com/contractornation" target="_blank" style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="20"
                     height="20" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    "border: none; width: 20px; max-width: 20px !important; height: 20px; max-height: 20px !important;"
                     src=
-                    "http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/cnlive-fb.png" /></a>&nbsp;&nbsp;<a href="https://twitter.com/basementsystems" target="_blank"
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-fb.png" /></a>&nbsp;&nbsp;<a href="https://twitter.com/basementsystems" target="_blank"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="20"
                     height="20" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    "border: none; width: 20px; max-width: 20px !important; height: 20px; max-height: 20px !important;"
                     src=
-                    "http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/cnlive-twitter.png" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/contractor.nation/" target="_blank"
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-tw.png" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/contractor.nation/" target="_blank"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="20"
                     height="20" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    "border: none; width: 22px; max-width: 22px !important; height: 22px; max-height: 22px !important;"
                     src=
-                    "http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/cnlive-instagram.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-insta.png" /></a>
                   </td>
                 </tr>
               </table>

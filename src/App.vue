@@ -5,7 +5,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="th-logo has-text-centered">
-            <icon-base icon-name="cnlive"><cnliveLogo /></icon-base>
+            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/Contractor_Nation_White.png" alt="" style="width:400px">
           </div>
         <h1 class="sub-text title has-text-centered">
             <p>Signature Generator</p> 
@@ -30,8 +30,6 @@
             <button @click.prevent="reset" class="button is-success" type="submit" :disabled="!isReset">
                 Reset
             </button>
-
-
           </div>
 <!----------------- Output Signature ---------------->       
           <div class="column">
@@ -69,43 +67,7 @@
         </div>
           </modal>
     </div>
-    <hr>
-   <div class="container main">  
-      <div>  
-        <div class="columns">
-<!----------------- Output Badge ---------------->       
-          <div class="column">
-              <h3 class="subtitle" style="margin-bottom:0">
-                Badge Only</h3>
-                <p>Click, drag, then copy badge below into email signature.</p>
-                <button @click="toggleShow, $modal.show('badge')" class="button is-success" type="submit">
-                Demo
-            </button>
-              <br><br><br>
-            <outputBadge/>     
-          </div>
-        </div>
-      </div>
-    </div>
-
-<!----------------- Badge Modal ---------------->   
-
-        <modal name="badge" :height="240">
-                    <div class="sign-box level-item has-text-centered">
-              <div class="output-btn">
-                  <p class="field">
-                      <a class="button is-small" @click="$modal.hide('badge')">
-                        <span class="icon is-small">
-                          <i class="fa fa-times"></i>
-                        </span>
-                      </a>
-                    </p>
-                </div>
-           <img src="http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/cnlive.gif" alt="">
-           
-          </div>
-        </modal>    
-
+  
 <!----------------- Footer ---------------->
     <footer class="" id="footer">
         <div class="container">
