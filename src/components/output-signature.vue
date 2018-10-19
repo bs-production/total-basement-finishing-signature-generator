@@ -6,8 +6,8 @@
         <tr>
             <td valign="top" style=
             "padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0;">
-            <a href="https://www.contractornation.com/"><img width="184"
-                    height="117" style="width: 184px; max-width: 184px !important; height: 117px; max-height: 117px !important; margin-top: 5px;" id="preview-image-url" src=
+            <a href="https://www.contractornation.com/"><img width="165"
+                    height="105" style="width: 165px; max-width: 165px !important; height: 105px; max-height: 105px !important; margin-top: 5px;" id="preview-image-url" src=
             "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png"
               name="preview-image-url" /></a>
             </td>
