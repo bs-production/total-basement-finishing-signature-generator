@@ -31,18 +31,15 @@
           <div class="control has-icons-left has-icons-right">
             <input class="input" onblur="if (this.value == '') {this.value = 'Association';}" onfocus="if (this.value == 'Association') {this.value = '';}" :value="association" @input="$emit('update:association', $event.target.value)" type="text">
                    <span class="icon is-small is-left">
-                      <i class="fa fa-id-badge"></i>
+                      <i class="fa fa-users"></i>
                     </span>
           </div>
         </div>
   </div>
 
- 
-
         <div class="field">
           <div class="control has-icons-left has-icons-right">
             <input class="input" onblur="if (this.value == '') {this.value = 'Phone Number';}" onfocus="if (this.value == 'Phone Number') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
-           
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>

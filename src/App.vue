@@ -24,13 +24,18 @@
                
             <inputInformation :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)" />
 <!----------------- Button ---------------->   
-            <button @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
-                Copy Signature
-            </button>
-            <button @click.prevent="reset" class="button is-success" type="submit" :disabled="!isReset">
-                Reset
-            </button>
-          </div>
+    <button v-show="!assSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
+        Copy Signature
+    </button>
+ 
+    <button v-show="assSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValidAss">
+        Copy Signature
+    </button>
+
+    <button @click.prevent="reset" class="button is-success" type="submit" :disabled="!isReset">
+        Reset
+    </button>
+  </div>
 <!----------------- Output Signature ---------------->       
           <div class="column">
               <h3 class="subtitle">Output Signature</h3>
@@ -100,6 +105,9 @@ export default {
   },
   computed: {
     isValid: function () {
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Phone Number' && this.email !== 'Email'
+    },
+    isValidAss: function () {
       return this.fullName !== 'Full Name' && this.title !== 'Title' && this.association !== 'Association' && this.phone !== 'Phone Number' && this.email !== 'Email'
     },
     isReset: function () {
