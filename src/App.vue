@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app"> 
   
     <section class="hero is-primary">
       <div class="hero-body">
@@ -21,8 +21,8 @@
 <!----------------- Input Information ---------------->  
           <div class="column" id="input-info">
               <h3 class="subtitle">Input Information</h3>
-            <inputInformation :fullName.sync="fullName" :title.sync="title" :phone.sync="phone" :email.sync="email" />
-
+               
+            <inputInformation :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)" />
 <!----------------- Button ---------------->   
             <button @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
                 Copy Signature
@@ -34,7 +34,7 @@
 <!----------------- Output Signature ---------------->       
           <div class="column">
               <h3 class="subtitle">Output Signature</h3>
-            <outputSignature :fullName.sync="fullName" :title.sync="title" :phone.sync="phone" :email.sync="email" />
+            <outputSignature :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)"/>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
                       </a>
                     </p>
                 </div>
-            <outputSignature :fullName.sync="fullName" :title.sync="title" :phone.sync="phone" :email.sync="email"/>
+            <outputSignature :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)"/>
            
           </div>
 
@@ -91,17 +91,19 @@ export default {
     return {
       fullName: 'Full Name',
       title: 'Title',
+      association: 'Association',
       phone: 'Phone Number',
       email: 'Email',
-      isShowing: false
+      isShowing: false,
+      assSwitch: false
     }
   },
   computed: {
     isValid: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Phone Number' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.association !== 'Association' && this.phone !== 'Phone Number' && this.email !== 'Email'
     },
     isReset: function () {
-      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.phone !== 'Phone Number' || this.email !== 'Email'
+      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.association !== 'Association' || this.phone !== 'Phone Number' || this.email !== 'Email'
     }
   },
   methods: {
@@ -117,8 +119,12 @@ export default {
     reset () {
       this.fullName = 'Full Name'
       this.title = 'Title'
+      this.association = 'Association'
       this.phone = 'Phone Number'
       this.email = 'Email'
+    },
+    updateTitle (updatedTitle) {
+      this.assSwitch = updatedTitle
     }
   }
 }

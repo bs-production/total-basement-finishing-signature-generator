@@ -28,6 +28,17 @@
                   <em>{{title}}</em>
                   </td>
                 </tr>
+              <div v-show="!assSwitch">
+
+              </div>
+    
+                <tr v-show="assSwitch">
+                  <td colspan="2" style=
+                  "color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  {{association}}
+                  </td>
+                </tr>
+             
                 <tr>
                   <td width="20" valign="top" style=
                   "vertical-align: top; width: 20px; color: #0e3b7b; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
@@ -79,9 +90,7 @@
     </section>
   </div>
 </template>
-
 <script>
-// import {bus} from '../main'
 export default {
   name: 'outputSignature',
   props: {
@@ -93,12 +102,20 @@ export default {
       type: String,
       required: true
     },
+    association: {
+      type: String,
+      required: true
+    },
     phone: {
       type: String,
       required: true
     },
     email: {
       type: String,
+      required: true
+    },
+    assSwitch: {
+      type: Boolean,
       required: true
     }
   }
