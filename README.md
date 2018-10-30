@@ -4,7 +4,7 @@
 
 
 ## References
-[Live demo](https://chrisroselli.github.io/cnlive-signature-generator/)  
+[Live demo](https://bs-production.github.io/cn-signature-generator/)  
 [Vue Webpack boilerplate](https://github.com/vuejs-templates/webpack)  
 [Bulma CSS framework](https://bulma.io/)  
 
