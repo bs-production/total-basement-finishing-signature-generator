@@ -91,8 +91,7 @@
             </td>
           </tr>
         </table>
-          <p style="font-size: 12px; color: #0d3b7b;"><a href="https://cnbusinesscenter.com/tbs/?module=do_training_events_registration"> <b>Click </b></a>here to view our upcoming training events.</p>
-          <p style="font-size: 12px; color: #0d3b7b;">Join us for <span style="color: #f57e3a;"><b>CN Live '19</b></span> on September 19-21, 2019!</p>
+          <p style="font-size: 14px; color: #0d3b7b;"><a href="https://cnbusinesscenter.com/tbs/?module=do_training_events_registration" style="color: #f57e3a;"> <b>Click here </b></a>for upcoming training events.</p>
     </section>
   </div>
 </template>
