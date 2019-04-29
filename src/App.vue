@@ -78,7 +78,7 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    &copy;2018 Contractor Nation
+                    &copy;2019 Contractor Nation
                 </p>
             </div>
         </div>
