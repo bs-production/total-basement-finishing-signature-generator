@@ -8,10 +8,10 @@
             "padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0;">
             <a href="https://www.contractornationlive.com/">
    
-            <img v-show="assSwitch" width="190" height="120" style="width: 190px; max-width: 190px !important; height: 120px; max-height: 120px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png" name="preview-image-url" />
+            <img v-show="assSwitch" width="200" height="126" style="width: 200px; max-width: 200px !important; height: 126px; max-height: 126px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png" name="preview-image-url" />
      
       
-            <img v-show="!assSwitch" width="165" height="105" style="width: 165px; max-width: 165px !important; height: 105px; max-height: 105px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png" name="preview-image-url" />
+            <img v-show="!assSwitch" width="190" height="121" style="width: 190px; max-width: 190px !important; height: 121px; max-height: 121px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-logo-bar.png" name="preview-image-url" />
    
 
               </a>
@@ -54,6 +54,19 @@
                   {{phone}}
                   </td>
                 </tr>
+                               <tr>
+                  <td width="20" valign="top" style=
+                  "vertical-align: top; width: 20px; color: #0e3b7b; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  w:
+                  </td>
+                  <td valign="top" style=
+                  "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  <a href="https://www.contractornation.com/" target="_blank" style=
+                  "color: #333333; text-decoration: none; font-weight: normal; font-size: 14px;">
+                    contractornation.com</a>
+                    &nbsp;&nbsp;
+                  </td>
+                </tr>
                 <tr>
                     <td width="20" valign="top" style=
                     "vertical-align: top; width: 20px; color: #0e3b7b; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
@@ -72,7 +85,7 @@
                     height="20" style=
                     "border: none; width: 20px; max-width: 20px !important; height: 20px; max-height: 20px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-fb.png" /></a>&nbsp;&nbsp;<a href="https://twitter.com/basementsystems" target="_blank"
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-fb.png" /></a>&nbsp;&nbsp;<a href="https://twitter.com/ContractorNatn" target="_blank"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="20"
                     height="20" style=
