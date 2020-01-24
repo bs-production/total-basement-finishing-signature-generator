@@ -1,10 +1,9 @@
-# CN Email Signature Generator for Microsoft Outlook
+# Master Service Companies Email Signature Generator for Microsoft Outlook
 
 > A Vue.js ^2.5.2 project
 
 
 ## References
-[Live demo](https://bs-production.github.io/cn-signature-generator/)  
 [Vue Webpack boilerplate](https://github.com/vuejs-templates/webpack)  
 [Bulma CSS framework](https://bulma.io/)  
 
