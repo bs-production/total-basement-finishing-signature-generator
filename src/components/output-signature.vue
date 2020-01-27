@@ -6,14 +6,12 @@
         <tr>
             <td valign="top" style=
             "padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0;">
-            <a href="https://www.contractornationlive.com/">
+            <a href="https://www.masterservicecompanies.com/">
    
-            <img v-show="assSwitch" width="220" height="139" style="width: 220px; max-width: 220px !important; height: 139px; max-height: 139px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/cn-logo-bar-black.png" name="preview-image-url" />
+            <img v-show="mobilePhoneSwitch" width="220" height="139" style="width: 220px; max-width: 220px !important; height: 139px; max-height: 139px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/cn-logo-bar-blue.png" name="preview-image-url" />
      
       
-            <img v-show="!assSwitch" width="190" height="121" style="width: 190px; max-width: 190px !important; height: 121px; max-height: 121px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/cn-logo-bar-black.png" name="preview-image-url" />
-   
-
+            <img v-show="!mobilePhoneSwitch" width="190" height="121" style="width: 190px; max-width: 190px !important; height: 121px; max-height: 121px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/cn-logo-bar-blue.png" name="preview-image-url" />
               </a>
             </td>
             
@@ -33,44 +31,34 @@
                   <em>{{title}}</em>
                   </td>
                 </tr>
-              <div v-show="!assSwitch">
+              <div v-show="!mobilePhoneSwitch">
 
               </div>
-    
-                <tr v-show="assSwitch">
-                  <td colspan="2" style=
-                  "color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  {{association}}
-                  </td>
-                </tr>
              
                 <tr>
                   <td width="20" valign="top" style=
                   "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  p:
+                  Office:
                   </td>
                   <td valign="top" style=
                   "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                   {{phone}}
                   </td>
                 </tr>
-                               <tr>
-                  <td width="20" valign="top" style=
+                <tr v-show="mobilePhoneSwitch">
+                <td width="20" valign="top" style=
                   "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  w:
+                  Mobile:
                   </td>
                   <td valign="top" style=
                   "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                  <a href="https://www.contractornation.com/" target="_blank" style=
-                  "color: #333333; text-decoration: none; font-weight: normal; font-size: 14px;">
-                    contractornation.com</a>
-                    &nbsp;&nbsp;
+                  {{mobilePhone}}
                   </td>
                 </tr>
                 <tr>
                     <td width="20" valign="top" style=
                     "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
-                    e:
+                    Email:
                     </td>
                     <td valign="top" style=
                     "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
@@ -79,32 +67,49 @@
                     </td>
                   </tr>
                 <tr>
+                  <td width="20" valign="top" style=
+                  "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  Web:
+                  </td>
+                  <td valign="top" style=
+                  "vertical-align: top; color: #333333; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  <a href="https://www.masterservicecompanies.com/" target="_blank" style=
+                  "color: #333333; text-decoration: none; font-weight: normal; font-size: 14px;">
+                    masterservicecompanies.com</a>
+                    &nbsp;&nbsp;
+                  </td>
+                </tr>
+
+                <tr>
                   <td colspan="2" style="padding-top: 5px;">
-                    <a href="https://www.facebook.com/contractornation" target="_blank" style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="20"
-                    height="20" style=
-                    "border: none; width: 20px; max-width: 20px !important; height: 20px; max-height: 20px !important;"
+                    <a href="https://www.facebook.com/MasterServiceTeam/" target="_blank" style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-fb.png" /></a>&nbsp;&nbsp;<a href="https://twitter.com/ContractorNatn" target="_blank"
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-facebook_30x30-2.png" /></a>
+                    
+                    <a href="https://www.linkedin.com/company/masterservicestn" target="_blank" style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    src=
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-linkedin_30x30-2.png" /></a>
+                    
+                    <a href="https://www.youtube.com/channel/UCop6hiVtGvTDem0UqPppINw" target="_blank"
                     style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="20"
-                    height="20" style=
-                    "border: none; width: 20px; max-width: 20px !important; height: 20px; max-height: 20px !important;"
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-tw.png" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/contractor.nation/" target="_blank"
-                    style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="20"
-                    height="20" style=
-                    "border: none; width: 22px; max-width: 22px !important; height: 22px; max-height: 22px !important;"
-                    src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/872/cn-insta.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-youtube_30x30.png" /></a>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
         </table>
-          <!-- <p style="font-size: 14px; color: #0d3b7b;"><a href="https://cnbusinesscenter.com/tbs/?module=do_training_events_registration" style="color: #f57e3a;"> <b>Click here </b></a>for upcoming training events.</p> -->
+          <p style="font-size: 10px; color: #013d63; line-height: 12px;text-align: left; width: 450px" width="450">This message contains confidential information and is intended only for the intended recipients. If you are not an intended recipient you should not disseminate, distribute or copy this e-mail. Please notify us immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. E-mail transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Therefore we do not accept liability for any errors or omissions in the contents of this message, which arise as a result of e-mail transmission. If verification is required please request a hard-copy version.</p>
     </section>
   </div>
 </template>
@@ -120,7 +125,7 @@ export default {
       type: String,
       required: true
     },
-    association: {
+    mobilePhone: {
       type: String,
       required: true
     },
@@ -132,7 +137,7 @@ export default {
       type: String,
       required: true
     },
-    assSwitch: {
+    mobilePhoneSwitch: {
       type: Boolean,
       required: true
     }

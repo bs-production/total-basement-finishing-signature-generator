@@ -22,13 +22,13 @@
           <div class="column" id="input-info">
               <h3 class="subtitle">Input Information</h3>
                
-            <inputInformation :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)" />
+            <inputInformation :fullName.sync="fullName" :title.sync="title" :mobilePhone.sync="mobilePhone" :phone.sync="phone" :email.sync="email" :mobilePhoneSwitch.sync="mobilePhoneSwitch" v-on:changeTitle="updateTitle($event)" />
 <!----------------- Button ---------------->   
-    <button v-show="!assSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
+    <button v-show="!mobilePhoneSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
         Copy Signature
     </button>
  
-    <button v-show="assSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValidAss">
+    <button v-show="mobilePhoneSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValidAss">
         Copy Signature
     </button>
 
@@ -39,13 +39,13 @@
 <!----------------- Output Signature ---------------->       
           <div class="column">
               <h3 class="subtitle">Output Signature</h3>
-            <outputSignature :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)"/>
+            <outputSignature :fullName.sync="fullName" :title.sync="title" :mobilePhone.sync="mobilePhone" :phone.sync="phone" :email.sync="email" :mobilePhoneSwitch.sync="mobilePhoneSwitch" v-on:changeTitle="updateTitle($event)"/>
           </div>
         </div>
       </div>
  <!----------------- Modal ---------------->    
  
-        <modal name="output" :height="415">
+        <modal name="output" :height="500">
          
           <div class="sign-box level-item has-text-centered">
               <div class="output-btn">
@@ -57,16 +57,15 @@
                       </a>
                     </p>
                 </div>
-            <outputSignature :fullName.sync="fullName" :title.sync="title" :association.sync="association" :phone.sync="phone" :email.sync="email" :assSwitch.sync="assSwitch" v-on:changeTitle="updateTitle($event)"/>
+            <outputSignature :fullName.sync="fullName" :title.sync="title" :mobilePhone.sync="mobilePhone" :phone.sync="phone" :email.sync="email" :mobilePhoneSwitch.sync="mobilePhoneSwitch" v-on:changeTitle="updateTitle($event)"/>
            
           </div>
 
           <div class="gif-box level-item has-text-centered">
             <ul>
-              <li>1. Place cursor at the top-left corner of CNLIVE logo and click & drag to bottom-right corner of <img style="border-radius:0;moz-border-radius:0;khtml-border-radius:0;o-border-radius:0;webkit-border-radius:0;ms-border-radius:0;border: 0;width:16px; height:16px;" width="16" height="16" src="http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/cnlive-instagram.png"></li>
-              <li>2. Paste into your Outlook signature preferences panel</li>
+              <li>1. Place cursor at the top-left corner of Master Services logo and click & drag to bottom-right corner of the disclaimer</li>
+              <li>2. Paste into Outlook signatures in preferences panel</li>
               <li>3. Adjust logo size if needed</li>
-              <li>4. Result may look funny in Signature preferences, but try in a new message</li>
             </ul>
           <img src="http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/687/sign-copy3.gif" alt="">
         </div>
@@ -96,22 +95,22 @@ export default {
     return {
       fullName: 'Full Name',
       title: 'Title',
-      association: 'Association',
-      phone: 'Phone Number',
+      mobilePhone: 'Mobile',
+      phone: 'Office',
       email: 'Email',
       isShowing: false,
-      assSwitch: false
+      mobilePhoneSwitch: false
     }
   },
   computed: {
     isValid: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Phone Number' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Office' && this.email !== 'Email'
     },
     isValidAss: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.association !== 'Association' && this.phone !== 'Phone Number' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.mobilePhone !== 'Mobile' && this.phone !== 'Office' && this.email !== 'Email'
     },
     isReset: function () {
-      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.association !== 'Association' || this.phone !== 'Phone Number' || this.email !== 'Email'
+      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.mobilePhone !== 'Mobile' || this.phone !== 'Office' || this.email !== 'Email'
     }
   },
   methods: {
@@ -127,12 +126,12 @@ export default {
     reset () {
       this.fullName = 'Full Name'
       this.title = 'Title'
-      this.association = 'Association'
-      this.phone = 'Phone Number'
+      this.mobilePhone = 'Mobile'
+      this.phone = 'Office'
       this.email = 'Email'
     },
     updateTitle (updatedTitle) {
-      this.assSwitch = updatedTitle
+      this.mobilePhoneSwitch = updatedTitle
     }
   }
 }
@@ -234,8 +233,8 @@ input:disabled {
 .sub-text p {
   color: #fff;
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 200;
-  font-size: 38;
+  font-weight: 700;
+  font-size: 32px;
 }
 .hero-body {
   padding: 1.5rem 1.5rem;

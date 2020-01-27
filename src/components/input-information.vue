@@ -22,28 +22,25 @@
           </div>
         </div>
 
-
-  <div v-show="!assSwitch">
-  
-  </div>
-  <div v-show="assSwitch">
-          <div class="field" style="margin-bottom: .75rem;">
-          <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Association';}" onfocus="if (this.value == 'Association') {this.value = '';}" :value="association" @input="$emit('update:association', $event.target.value)" type="text">
-                   <span class="icon is-small is-left">
-                      <i class="fa fa-users"></i>
-                    </span>
-          </div>
-        </div>
-  </div>
+  <div v-show="!mobilePhoneSwitch"></div>
 
         <div class="field">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Phone Number';}" onfocus="if (this.value == 'Phone Number') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Office';}" onfocus="if (this.value == 'Office') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
           </div>
+        </div>
+          <div v-show="mobilePhoneSwitch">
+          <div class="field" style="margin-bottom: .75rem;">
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Mobile';}" onfocus="if (this.value == 'Mobile') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
+                   <span class="icon is-small is-left">
+                      <i class="fa fa-mobile fa-lg"></i>
+                    </span>
+          </div>
+        </div>
         </div>
         <div class="field">
           <div class="control has-icons-left has-icons-right">
@@ -56,7 +53,7 @@
         </div>
         </form>
     </section>
-         <button @click="changeTitle">Add/Remove Association</button>      
+         <button @click="changeTitle">Add/Remove: Mobile Phone</button>      
   </div>
 </template>
 
@@ -72,7 +69,7 @@ export default {
       type: String,
       required: true
     },
-    association: {
+    mobilePhone: {
       type: String,
       required: true
     },
@@ -84,14 +81,14 @@ export default {
       type: String,
       required: true
     },
-    assSwitch: {
+    mobilePhoneSwitch: {
       type: Boolean,
       required: true
     }
   },
   methods: {
     changeTitle () {
-      this.$emit('changeTitle', this.assSwitch = !this.assSwitch)
+      this.$emit('changeTitle', this.mobilePhoneSwitch = !this.mobilePhoneSwitch)
     }
   }
 }
