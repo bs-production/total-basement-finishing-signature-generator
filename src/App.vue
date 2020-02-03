@@ -5,7 +5,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="th-logo has-text-centered">
-            <img src="https://d2jsm6douc3u7w9r1efynvv2-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/Master-Services-Logo-brick-White-ol.png" alt="" style="width:250px">
+            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/ms-logo-header-white.png" alt="" style="width:250px">
           </div>
         <h1 class="sub-text title has-text-centered">
             <p>Signature Generator</p> 
@@ -231,7 +231,7 @@ input:disabled {
   margin-top: 10px;
 }
 .sub-text p {
-  color: #fff;
+  color: #f15d2a;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
   font-size: 32px;
