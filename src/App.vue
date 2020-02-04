@@ -14,7 +14,6 @@
       </div>
     </section>
 <!----------------- Header Ends ---------------->
-
     <div class="container main">  
       <div>  
         <div class="columns">
@@ -88,7 +87,6 @@
 <!-------------------------- Scripts ---------------------------->
 
 <script>
-
 export default {
   name: 'app',
   data: function () {
@@ -136,8 +134,6 @@ export default {
   }
 }
 </script>
-
-
 
 <!-------------------------- Styles ---------------------------->
 <style scoped>
