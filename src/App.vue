@@ -76,7 +76,7 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    &copy;2020 Master Service Companies
+                    &copy;2020 Basement Systems of Indiana
                 </p>
             </div>
         </div>
