@@ -6,9 +6,9 @@
         <tr>
             <td valign="top" style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 7px; border-top: 0; border-bottom: 0: border-left: 0;">
               <a href="https://www.masterservicestn.com">
-                <img v-show="mobilePhoneSwitch" width="220" height="139" style="width: 220px; max-width: 220px !important; height: 139px; max-height: 139px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/ms-logo-bar-new.png" name="preview-image-url" />
+                <img v-show="mobilePhoneSwitch" width="220" height="139" style="width: 220px; max-width: 220px !important; height: 139px; max-height: 139px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/bsindiana-logo-bar.png" name="preview-image-url" />
         
-                <img v-show="!mobilePhoneSwitch" width="190" height="121" style="width: 190px; max-width: 190px !important; height: 121px; max-height: 121px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/ms-logo-bar-new.png" name="preview-image-url" />
+                <img v-show="!mobilePhoneSwitch" width="190" height="121" style="width: 190px; max-width: 190px !important; height: 121px; max-height: 121px !important; margin-top: 5px;" id="preview-image-url" src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/bsindiana-logo-bar.png" name="preview-image-url" />
               </a>
             </td>
             
@@ -18,7 +18,7 @@
             "background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
               <tr>
                   <td colspan="2" style=
-                  "padding-bottom: 5px; color: #013d63; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+                  "padding-bottom: 5px; color: #1aaee4; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
                   {{fullName}}
                   </td>
                 </tr>
@@ -34,7 +34,7 @@
              
                 <tr>
                   <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  "vertical-align: top; width: 20px; color: #1aaee4; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                   Office:
                   </td>
                   <td valign="top" style=
@@ -44,7 +44,7 @@
                 </tr>
                 <tr v-show="mobilePhoneSwitch">
                 <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  "vertical-align: top; width: 20px; color: #1aaee4; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                   Mobile:
                   </td>
                   <td valign="top" style=
@@ -54,7 +54,7 @@
                 </tr>
                 <tr>
                     <td width="20" valign="top" style=
-                    "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                    "vertical-align: top; width: 20px; color: #1aaee4; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                     Email:
                     </td>
                     <td valign="top" style=
@@ -65,7 +65,7 @@
                   </tr>
                 <tr>
                   <td width="20" valign="top" style=
-                  "vertical-align: top; width: 20px; color: #013d63; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                  "vertical-align: top; width: 20px; color: #1aaee4; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
                   Web:
                   </td>
                   <td valign="top" style=
@@ -79,42 +79,42 @@
 
                 <tr>
                   <td colspan="2" style="padding-top: 5px;">
-                    <a href="https://www.facebook.com/MasterServiceTeam/" target="_blank" style=
+                    <a href="https://www.facebook.com/basementsystemsofindiana/" target="_blank" style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="25"
                     height="25" style=
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-facebook_30x30-2.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/facebook.png" /></a>
                     
-                    <a href="https://www.linkedin.com/company/masterservicestn" target="_blank" style=
+                    <a href="https://www.linkedin.com/company/basement-systems-of-indiana" target="_blank" style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="25"
                     height="25" style=
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-linkedin_30x30-2.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/linkedin.png" /></a>
                     
-                    <a href="https://www.youtube.com/channel/UCop6hiVtGvTDem0UqPppINw" target="_blank"
+                    <!-- <a href="https://www.youtube.com/channel/UCop6hiVtGvTDem0UqPppINw" target="_blank"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="25"
                     height="25" style=
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-youtube_30x30.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/youtube.png" /></a> -->
 
-                    <a href="https://www.instagram.com/masterserviceteam/" target="_blank"
+                    <a href="https://www.instagram.com/basementsystems_indy/" target="_blank"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="25"
                     height="25" style=
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/2822/icon-instagram_30x30.png" /></a>
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/instagram.png" /></a>
                   </td>
                 </tr>
               </table>
             </td>
           </tr>
         </table>
-          <p style="font-size: 10px; color: #013d63; line-height: 12px;text-align: left; width: 450px" width="450">This message contains confidential information and is intended only for the intended recipients. If you are not an intended recipient you should not disseminate, distribute or copy this e-mail. Please notify us immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. E-mail transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Therefore we do not accept liability for any errors or omissions in the contents of this message, which arise as a result of e-mail transmission. If verification is required please request a hard-copy version.</p>
+          <p style="font-size: 10px; color: #000; line-height: 12px;text-align: left; width: 450px" width="450">This message contains confidential information and is intended only for the intended recipients. If you are not an intended recipient you should not disseminate, distribute or copy this e-mail. Please notify us immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. E-mail transmission cannot be guaranteed to be secure or error-free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Therefore we do not accept liability for any errors or omissions in the contents of this message, which arise as a result of e-mail transmission. If verification is required please request a hard-copy version.</p>
     </section>
   </div>
 </template>
@@ -167,6 +167,6 @@ li {
 }
 
 a {
-  color: #013d63;
+  color: #1aaee4;
 }
 </style>

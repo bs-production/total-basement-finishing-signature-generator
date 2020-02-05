@@ -1,13 +1,16 @@
 <template>
-<svg xmlns="http://www.w3.org/2000/svg"
-    :width="width"
-    viewBox="0 0 391 65"
-    :aria-labelledby="iconName"
+  <svg xmlns="http://www.w3.org/2000/svg" 
+    :width="width" 
+    :height="height" 
+    viewBox="0 0 97.75 97.75" 
+    :aria-labelledby="iconName" 
     role="presentation"
   >
-  <title :id="iconName" lang="en">{{iconName}} icon</title>
-      <slot/>
-</svg> 
+    <title :id="iconName" lang="en">{{iconName}} icon</title>
+    <g :fill="iconColor">
+      <slot />
+    </g>
+  </svg>
 </template>
 
 <script>
@@ -15,21 +18,20 @@ export default {
   props: {
     iconName: {
       type: String,
-      default: 'logo'
+      default: 'box'
     },
     width: {
       type: [Number, String],
-      default: 350
+      default: 25
+    },
+    height: {
+      type: [Number, String],
+      default: 25
+    },
+    iconColor: {
+      type: String,
+      default: '#1aaee4'
     }
   }
 }
 </script>
-
-
-<style scoped>
-svg {
-  display: inline-block;
-  vertical-align: baseline;
-  margin-top: 20px; /* yes, I'm that particular about formatting */
-}
-</style>
