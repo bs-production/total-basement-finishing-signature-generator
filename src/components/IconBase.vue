@@ -30,7 +30,7 @@ export default {
     },
     iconColor: {
       type: String,
-      default: '#1aaee4'
+      default: '#50b948'
     }
   }
 }

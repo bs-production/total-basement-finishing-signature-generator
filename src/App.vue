@@ -5,7 +5,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="th-logo has-text-centered">
-            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/7/LJ-CBS-Logo_new-Fonts-and-Tagline.png" alt="" style="width:300px">
+            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/321/DES-We-Fix-Logo.png" alt="" style="width:280px">
           </div>
         <h1 class="sub-text title has-text-centered">
             <p>Signature Generator</p> 
@@ -76,7 +76,7 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    &copy;2020 Connecticut Basement Systems
+                    &copy;2020 Dr. Energy Saver
                 </p>
             </div>
         </div>
@@ -159,7 +159,7 @@ li {
   margin-left: 1px;
   background-color: #efefef;
   padding: 20px;
-  border-top: 1px dashed #1aaee4;
+  border-top: 1px dashed #50b948;
 }
 .gif-box ul {
     text-align:left;
@@ -209,18 +209,18 @@ input:disabled {
   margin-top: 10px;
 }
 .button.is-success, .button.is-success[disabled] {
-  background-color: #1aaee4;
+  background-color: #50b948;
   border-color: transparent;
   color: #fff;
 }
 .button.is-success.is-hovered,
 .button.is-success:hover {
-  background-color: #ef7caf;
+  background-color: #ee3e35;
   border-color: transparent;
   color: #fff;
 }
 .input:focus {
-  border-color: #ef7caf;
+  border-color: #ee3e35;
   box-shadow: 0 0 0 0.125em rgba(119, 187, 70, 0.25);
 }
 .sub-text {
@@ -237,7 +237,7 @@ input:disabled {
   padding: 1.5rem 1.5rem;
 }
 .input:focus {
-  border-color: #ef7caf;
+  border-color: #ee3e35;
   box-shadow: 0 0 0 0.125em rgba(119, 187, 70, 0.25);
 }
 .fade-enter-active,

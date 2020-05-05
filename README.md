@@ -1,4 +1,4 @@
-# Connecticut Basement Systems Email Signature Generator for Microsoft Outlook
+# Dr. Energy Saver Email Signature Generator for Microsoft Outlook
 
 > A Vue.js ^2.5.2 project
 
