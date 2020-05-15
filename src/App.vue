@@ -5,7 +5,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="th-logo has-text-centered">
-            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/314/CT_TBF_Logo.jpg" alt="" style="width:280px">
+            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/315/totalbasementfinishing_logo.png" alt="" style="width:280px">
           </div>
         <h1 class="sub-text title has-text-centered">
             <p>Signature Generator</p> 
